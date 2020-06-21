@@ -1,0 +1,2 @@
+This project is the product landing page for Free Code Camp's responsive web design course. Once I have satisfied the requirements for the Free Code Camp tests, I am going to work on my git skills by creating another branch and continuing to tweak this project as I learn more advanced web development skills. 
+This is the home page for a fictional web design company called "B-Minus Design" centered around a classroom type theme to go along with the name. The name implies obviously, to not expect an A+ grade for design, but perhaps at least a B-
