@@ -1,7 +1,10 @@
 
 .background {
-    background-image: url(teacher.jpg);
+    background-image: url(teacher2.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     
 }
 header {
@@ -39,8 +42,72 @@ nav > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style-type: none;
 }
 .row0 {
     height: 500px;
+}
+.row1 {
+    background-color: rgba(119, 117, 117, 0.4);
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 0.5px solid #000;
     
+}
+#features {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.reason {
+    background-color: rgba(119, 117, 117, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 0.5px solid #000;
+
+}
+/*put a media query here to make the row turn into columns under a certain screen size*/
+.row3 {
+    background-color: rgba(119, 117, 117, 0.4);
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 0.5px solid #000;
+}
+.row4 {
+    background-color: rgba(119, 117, 117, 0.4);
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 0.5px solid #000;
+    text-align: center;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 20px;
+    max-width: 60%;
+    text-align: left;
+}
+#details {
+    min-height: 100px;
+}
+.btn {
+    margin-top: 10px;
+    width: 30%;
+    height: 30px;
+    font-size: 1em;
+    border: 0.5px black solid;
+    background: rgb(190, 188, 188);
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(130, 159, 211);
 }
