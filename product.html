@@ -6,13 +6,29 @@
     <title>Product Landing Page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media (max-width: 690px) {
+            nav > ul {
+                flex-direction: column;
+            }
+            nav > ul > li {
+                padding: 10px;
+                width: 80px;
+            }
+            
+        }
+    </style>
     
 </head>
 <body>
     <div class="background">
     <header id="header">
         <div class="logo">
-            <img id="header-img" src="bminus.png" alt="webdesign logo"/>
+            <img id="header-img" src="bminus.png" alt="actual logo"/>
+            <!--<img id="header-img" src="https://imgur.com/emqBrNN" alt="this shows up instead of pic to satisfy requirements in script"/>-->
         </div>
         <nav id="nav-bar">
             <ul>
@@ -54,7 +70,7 @@
     <div class="row3">
     <section id="more-info">
         <h2>See what makes B-Minus Design so special:</h2>
-        <iframe id="video" height="240" width="680" src="putavideohereatsomepoint" allowfullscreen></iframe>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/aQmk5bU-Wtc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     </div>
 
@@ -72,13 +88,16 @@
             <p>What is your name?</p>
             <input id="name" type="text" placeholder="Enter your name" required/>
             <p>What is your email?</p>
-            <input id="email" type="email" placeholder="Enter your email" required/>
+            <input id="email" name="email" type="email" placeholder="Enter your email" required/>
             <p>Do you want to give some more details about your project?</p>
             <textarea id="details" placeholder="Give us a short description of your project"></textarea>
             <input id="submit" type="submit" value="Get in touch!" class="btn"/>
 
         </form>
     </div>
+    <footer>
+        <p>&copy 2020 Tyler Von Harz</p>
+    </footer>
     </div>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
